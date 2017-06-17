@@ -21,6 +21,7 @@
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="8dp"
         android:textSize="20dp"
+        android:textColor="@color/colorblack"
         app:layout_constraintVertical_bias="0.269"
         app:layout_constraintHorizontal_bias="0.757" />
 
@@ -39,7 +40,8 @@
         android:layout_marginBottom="8dp"
         app:layout_constraintHorizontal_bias="0.769"
         app:layout_constraintVertical_bias="0.41"
-        android:textSize="20dp"/>
+        android:textSize="20dp"
+        android:textColor="@color/colorblack"/>
 
     <TextView
         android:id="@+id/textView4"
@@ -56,7 +58,8 @@
         android:layout_marginTop="8dp"
         app:layout_constraintHorizontal_bias="0.769"
         app:layout_constraintVertical_bias="0.543"
-        android:textSize="20dp"/>
+        android:textSize="20dp"
+        android:textColor="@color/colorblack"/>
 
     <TextView
         android:id="@+id/textView5"
@@ -64,6 +67,7 @@
         android:layout_height="37dp"
         android:text="My Profile"
         android:textSize="30dp"
+        android:textColor="@color/colorPrimary"
         android:layout_marginLeft="8dp"
         app:layout_constraintLeft_toLeftOf="parent"
         android:layout_marginRight="8dp"
@@ -80,6 +84,7 @@
         android:layout_height="24dp"
         android:text="ชื่อ"
         android:textSize="20dp"
+        android:textColor="@color/colorblack"
         android:layout_marginLeft="8dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toLeftOf="@+id/textView2"
@@ -97,6 +102,7 @@
         android:layout_height="30dp"
         android:text="อายุ"
         android:textSize="20dp"
+        android:textColor="@color/colorblack"
         app:layout_constraintRight_toLeftOf="@+id/textView4"
         android:layout_marginRight="8dp"
         android:layout_marginLeft="8dp"
@@ -110,10 +116,11 @@
 
     <TextView
         android:id="@+id/textView10"
-        android:layout_width="70dp"
+        android:layout_width="80dp"
         android:layout_height="32dp"
         android:text="นามสกุล"
         android:textSize="20dp"
+        android:textColor="@color/colorblack"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
